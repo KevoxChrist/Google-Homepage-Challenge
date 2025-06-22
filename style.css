@@ -157,7 +157,7 @@ body{
     display: flex;
     justify-content: left;
     gap: 30px;
-    transform: translate(1rem ,12rem);
+    transform: translate(1rem ,20rem);
     padding: 20px;
     font-family: Roboto, Arial, sans-serif;
 
@@ -167,7 +167,7 @@ body{
     display: flex;
     justify-content: right;
     gap: 30px;
-    transform: translate(1rem ,7.5rem);
+    transform: translate(.5rem ,16rem);
     padding: 20px;
     font-family: Roboto, Arial, sans-serif;
 
