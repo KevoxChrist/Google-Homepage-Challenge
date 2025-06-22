@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(32, 33, 36);
+}
+.navigation{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: .87rem;
+    margin: 6px;
+    padding: 3px;
+    
+}
+
+.navigation-anchor a:link{
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+.navigation-anchor a:visited{
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+.navigation-anchor a:hover{
+    color: #e8e8e8;
+    text-decoration: underline;
+} 
+
+.navigation-anchor a:active{
+    color: #e8e8e8;
+}
+
+#google_apps img{
+    width: 1.8em;
+    transform: translateY(-3px);   
+}
+
+#google_apps{
+    text-decoration: none;
+     
+}
+
+.sign_in{
+    
+    transform: translateY(-12px);
+    background-color: rgb(194,231,255,1);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 5.5rem;
+    padding: 12px;
+    
+}
+
+#sign{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    transform: translateX(10px);
+    
+}
+
+
+#left_navigation{
+    padding: 10px;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+
+}
+
+#right_navigation{
+    padding: 7px;
+    margin: -7px;
+    transform: translateX(8px);
+    display: flex;
+    gap: 17px;
+    align-content: baseline;
+}
+
+/*MAIN*/
+
+#main-img{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+   
+    height: 18rem;
+
+}
+
+#google_logo{
+    box-sizing: border-box;
+    width: 18rem;
+    transform:translateY(5.5rem);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.main-input-search{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    height: 15.5rem;
+}
+
+#main-input-box{
+  
+    background-color:#4d5056;
+    border-radius: 25px;
+    padding: -1px;
+    height: 3rem;
+    width: 37rem;
+    transform: translateY(1rem);
+
+}
+
+#search{
+    box-sizing: border-box;
+    background-color: #4d5056;
+    border-style: none;
+    width: 29rem;
+    height: 1.5rem;
+    transform:translate(2.5rem ,.5rem);
+    outline: none;
+    color: #e8e8e8;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+#search_button{
+
+    width: 1.4em;
+    transform: translate(.5rem,-1rem);
+}
+
+#mic_button{
+    transform: translate(30rem, -.8rem);
+}
+
+#google_lens_button{
+
+    width: 1.5rem;
+    transform: translate(31rem, -.8rem);
+}
+
+
+#left_nav{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    transform: translate(1rem ,12rem);
+    padding: 20px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+#right_nav{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    transform: translate(1rem ,7.5rem);
+    padding: 20px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
